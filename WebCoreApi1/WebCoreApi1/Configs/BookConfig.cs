@@ -8,8 +8,9 @@ namespace WebCoreApi1.Configs
     {
         public void Configure(EntityTypeBuilder<Book> builder)
         {
-            builder.ToTable("Books");
             builder.Property<string>("Title").HasMaxLength(50).IsRequired();
+            builder.Property<string>("AuthorName").HasMaxLength(50).IsRequired();
+
         }
 
     }

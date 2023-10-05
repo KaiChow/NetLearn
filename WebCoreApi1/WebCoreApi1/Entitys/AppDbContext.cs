@@ -17,5 +17,9 @@ namespace WebCoreApi1.Entitys
         }
 
         public DbSet<Book> Books { get; set; }
+
+        public DbSet<Article> Articles { get; set; }
+
+        public DbSet<Comment> Comments { get; set; }
     }
 }

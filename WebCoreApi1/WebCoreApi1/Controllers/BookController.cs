@@ -24,6 +24,7 @@ namespace WebCoreApi1.Controllers
                 Title = "Test",
                 Price = 1,
                 PubTime = DateTime.Now,
+                AuthorName = "Kevin",
             };
             _appDbContext.Books.Add(book);
             var result = await _appDbContext.SaveChangesAsync();
