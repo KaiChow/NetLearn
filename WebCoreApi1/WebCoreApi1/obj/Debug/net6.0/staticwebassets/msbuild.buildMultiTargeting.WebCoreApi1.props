@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebCoreApi1.props" />
+</Project>

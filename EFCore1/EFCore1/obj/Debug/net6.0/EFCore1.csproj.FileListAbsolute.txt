@@ -61,3 +61,8 @@ D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\obj\Debug\net6.0\refint\EFCore1.dll
 D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\obj\Debug\net6.0\EFCore1.pdb
 D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\obj\Debug\net6.0\EFCore1.genruntimeconfig.cache
 D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\obj\Debug\net6.0\ref\EFCore1.dll
+D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MyCodes\Net\NetLearn\EFCore1\EFCore1\obj\Debug\net6.0\EFCore1.MvcApplicationPartsAssemblyInfo.cs
