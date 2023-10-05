@@ -17,7 +17,7 @@ namespace WebCoreApi1.Controllers
         }
         // GET: api/<BookController>/<GetBooks>
         [HttpGet]
-        public IEnumerable<Book> GetBooks()
+        public async Task<int> GetBooks()
         {
             Book book = new Book()
             {
@@ -25,7 +25,9 @@ namespace WebCoreApi1.Controllers
                 Price = 1,
                 PubTime = DateTime.Now,
             };
-            yield return book;
+            _appDbContext.Books.Add(book);
+            var result = await _appDbContext.SaveChangesAsync();
+            return result;
         }
 
     }
