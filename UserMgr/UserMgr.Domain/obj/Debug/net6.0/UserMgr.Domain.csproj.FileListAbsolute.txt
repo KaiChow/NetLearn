@@ -1,0 +1,12 @@
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\bin\Debug\net6.0\UserMgr.Domain.deps.json
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\bin\Debug\net6.0\UserMgr.Domain.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\bin\Debug\net6.0\UserMgr.Domain.pdb
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\UserMgr.Domain.csproj.AssemblyReference.cache
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\UserMgr.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\UserMgr.Domain.AssemblyInfoInputs.cache
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\UserMgr.Domain.AssemblyInfo.cs
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\UserMgr.Domain.csproj.CoreCompileInputs.cache
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\UserMgr.Domain.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\refint\UserMgr.Domain.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\UserMgr.Domain.pdb
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Domain\obj\Debug\net6.0\ref\UserMgr.Domain.dll
