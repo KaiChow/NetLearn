@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMgr.WebAPI", "UserMgr.WebAPI\UserMgr.WebAPI.csproj", "{C14FE47A-8F06-4A41-AAA6-4E0A89674D06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMgr.WebAPI", "UserMgr.WebAPI\UserMgr.WebAPI.csproj", "{C14FE47A-8F06-4A41-AAA6-4E0A89674D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMgr.Domain", "UserMgr.Domain\UserMgr.Domain.csproj", "{9930B212-727E-4823-A094-B6840A04E5B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMgr.Domain", "UserMgr.Domain\UserMgr.Domain.csproj", "{9930B212-727E-4823-A094-B6840A04E5B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMgr.Infrastracture", "UserMgr.Infrastracture\UserMgr.Infrastracture.csproj", "{48548ED7-D369-4FD4-BB73-26DFFC96556C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9930B212-727E-4823-A094-B6840A04E5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9930B212-727E-4823-A094-B6840A04E5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9930B212-727E-4823-A094-B6840A04E5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48548ED7-D369-4FD4-BB73-26DFFC96556C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48548ED7-D369-4FD4-BB73-26DFFC96556C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48548ED7-D369-4FD4-BB73-26DFFC96556C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48548ED7-D369-4FD4-BB73-26DFFC96556C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

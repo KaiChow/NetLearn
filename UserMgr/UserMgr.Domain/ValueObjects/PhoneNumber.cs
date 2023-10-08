@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace UserMgr.Domain.ValueObjects
 {
-    public record PhoneNumber(int RegionNumber,string Phonenumber);
+    public record PhoneNumber(int RegionNumber,string Number);
    
 }
