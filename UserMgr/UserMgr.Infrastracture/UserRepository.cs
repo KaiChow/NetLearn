@@ -33,7 +33,9 @@ namespace UserMgr.Infrastracture
             {
                 userId = user.Id;
             }
+
             _userDbContext.UserLoginHistories.Add(new UserLoginHistory(userId, phoneNumber, message));
+            //_userDbContext.SaveChanges(); 一般不在Repository中直接保存数据 工作单元应该有应用服务来完成，其他层不应该调用saveChanges方法来保存数据的修改
         }
 
         public async Task<User?> FindOneAsync(PhoneNumber phoneNumber)

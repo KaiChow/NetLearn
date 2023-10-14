@@ -1,0 +1,17 @@
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\bin\Debug\net6.0\UserMgr.Infrastracture.deps.json
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\bin\Debug\net6.0\UserMgr.Infrastracture.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\bin\Debug\net6.0\UserMgr.Infrastracture.pdb
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\bin\Debug\net6.0\UserMgr.Domain.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\bin\Debug\net6.0\UserMgr.Domain.pdb
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.csproj.AssemblyReference.cache
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.AssemblyInfoInputs.cache
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.AssemblyInfo.cs
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.csproj.CoreCompileInputs.cache
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.csproj.CopyComplete
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\refint\UserMgr.Infrastracture.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.pdb
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\ref\UserMgr.Infrastracture.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\bin\Debug\net6.0\UserMgr.Infrastracture.runtimeconfig.json
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.Infrastracture\obj\Debug\net6.0\UserMgr.Infrastracture.genruntimeconfig.cache
