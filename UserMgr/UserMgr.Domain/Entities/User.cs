@@ -8,7 +8,7 @@ using Zack.Commons;
 
 namespace UserMgr.Domain.Entities
 {
-    public class User : IAgregateRoot
+    public record User : IAgregateRoot
     {
         public Guid Id { get; set; }
 
@@ -16,7 +16,7 @@ namespace UserMgr.Domain.Entities
 
         private string? PasswordHash;
 
-        public UserAccessFail UserAccessFail { get; private set; }
+        public UserAccessFail UserAccessFail { get;private  set; }
 
         private User() { }
 

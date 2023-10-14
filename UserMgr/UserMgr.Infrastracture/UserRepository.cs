@@ -21,8 +21,11 @@ namespace UserMgr.Infrastracture
         private readonly IDistributedCache distributedCache;
         //事件发布
         private readonly IMediator mediator;
-        public UserRepository(UserDbContext userDbContext)
+        public UserRepository(IMediator mediator, IDistributedCache distributedCache, UserDbContext userDbContext)
         {
+
+            this.mediator = mediator;
+            this.distributedCache = distributedCache;
             _userDbContext = userDbContext;
         }
         public async Task AddNewLoginHistory(PhoneNumber phoneNumber, string message)
@@ -44,7 +47,7 @@ namespace UserMgr.Infrastracture
             return _userDbContext.Users.SingleOrDefault(u => u.PhoneNumber.Number == phoneNumber.Number && u.PhoneNumber.RegionNumber == phoneNumber.RegionNumber);
         */
 
-            User? user = await _userDbContext.Users.SingleOrDefaultAsync(ExpressionHelper.MakeEqual((User c) => c.PhoneNumber, phoneNumber));
+            User? user = await _userDbContext.Users.Include(u => u.UserAccessFail).SingleOrDefaultAsync(ExpressionHelper.MakeEqual((User c) => c.PhoneNumber, phoneNumber));
 
             return user;
 
@@ -52,7 +55,7 @@ namespace UserMgr.Infrastracture
 
         public async Task<User?> FindOneAsync(Guid userId)
         {
-            User? user = await _userDbContext.Users.SingleOrDefaultAsync(u => u.Id == userId);
+            User? user = await _userDbContext.Users.Include(u => u.UserAccessFail).SingleOrDefaultAsync(u => u.Id == userId);
 
             return user;
         }
@@ -66,12 +69,12 @@ namespace UserMgr.Infrastracture
             return code;
         }
 
-        public Task PublishEventAsync(UserAccessResultEvent enentData)
+        public Task PublishEventAsync(UserAccessResultEvent _event)
         {
-          return  mediator.Publish(enentData);
+            return mediator.Publish(_event);
         }
 
-        public  Task SavePhoneNumberCodeAsync(PhoneNumber phoneNumber, string code)
+        public Task SavePhoneNumberCodeAsync(PhoneNumber phoneNumber, string code)
         {
             string Key = $"PhoneNumber_${phoneNumber.RegionNumber}_{phoneNumber.Number}";
             // 有效期5分钟

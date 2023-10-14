@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserMgr.Domain.Entities
 {
-    public class IAgregateRoot
+    public interface IAgregateRoot
     {
        
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserMgr.Domain.Entities
 {
-    public record UserAccessFail
+    public record UserAccessFail:IAgregateRoot
     {
         public Guid Id { get; init; }
 
@@ -41,7 +41,7 @@ namespace UserMgr.Domain.Entities
             if (this.AccessFailCount >= 3)
             {
                 this.LockEnd = DateTime.Now.AddMinutes(5);
-                this.isLockOut |= true;
+                this.isLockOut = true;
             }
 
         }
