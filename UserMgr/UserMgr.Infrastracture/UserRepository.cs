@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Distributed;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,10 @@ namespace UserMgr.Infrastracture
     public class UserRepository : IUserRepository
     {
         private readonly UserDbContext _userDbContext;
+        // 分布式的缓存，有效期的自动处理有效期的问题
+        private readonly IDistributedCache distributedCache;
+        //事件发布
+        private readonly IMediator mediator;
         public UserRepository(UserDbContext userDbContext)
         {
             _userDbContext = userDbContext;
@@ -49,19 +55,25 @@ namespace UserMgr.Infrastracture
             return user;
         }
 
-        public Task<string?> FindPhoneNumberCodeAsync(PhoneNumber phoneNumber)
+        public async Task<string?> FindPhoneNumberCodeAsync(PhoneNumber phoneNumber)
         {
-            throw new NotImplementedException();
+            string Key = $"PhoneNumber_${phoneNumber.RegionNumber}_{phoneNumber.Number}";
+            string? code = await distributedCache.GetStringAsync(Key);
+            // 取了字后就移除
+            distributedCache.Remove(Key);
+            return code;
         }
 
         public Task PublishEventAsync(UserAccessResultEvent enentData)
         {
-            throw new NotImplementedException();
+          return  mediator.Publish(enentData);
         }
 
-        public Task SavePhoneNumberCodeAsync(PhoneNumber phoneNumber, string code)
+        public  Task SavePhoneNumberCodeAsync(PhoneNumber phoneNumber, string code)
         {
-            throw new NotImplementedException();
+            string Key = $"PhoneNumber_${phoneNumber.RegionNumber}_{phoneNumber.Number}";
+            // 有效期5分钟
+            return distributedCache.SetStringAsync(Key, code, new DistributedCacheEntryOptions() { AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(5) });
         }
     }
 }
