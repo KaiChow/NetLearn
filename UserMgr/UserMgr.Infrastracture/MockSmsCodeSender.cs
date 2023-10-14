@@ -8,7 +8,7 @@ using UserMgr.Domain.ValueObjects;
 
 namespace UserMgr.Infrastracture
 {
-    internal class MockSmsCodeSender : ISmsCodeSender
+    public class MockSmsCodeSender : ISmsCodeSender
     {
         public Task SendAsync(PhoneNumber phoneNumber, string code)
         {

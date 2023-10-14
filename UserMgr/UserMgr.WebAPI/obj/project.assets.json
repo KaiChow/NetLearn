@@ -3191,6 +3191,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MediatR >= 12.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.22",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "UserMgr.Domain >= 1.0.0",
@@ -3243,6 +3244,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.1.1, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
