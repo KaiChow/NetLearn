@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "UserMgr.WebAPI/1.0.0": {
         "dependencies": {
+          "MediatR": "12.1.1",
           "Microsoft.EntityFrameworkCore.Design": "6.0.22",
           "Swashbuckle.AspNetCore": "6.5.0",
           "UserMgr.Domain": "1.0.0",

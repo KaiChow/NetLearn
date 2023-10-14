@@ -10,6 +10,7 @@ D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\AsmResolver.DotN
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\AsmResolver.PE.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\AsmResolver.PE.File.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\FluentValidation.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Humanizer.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\MediatR.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\MediatR.Contracts.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
@@ -17,6 +18,7 @@ D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.Bcl.As
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
@@ -87,5 +89,3 @@ D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\obj\Debug\net6.0\refint\UserMgr.W
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\obj\Debug\net6.0\UserMgr.WebAPI.pdb
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\obj\Debug\net6.0\UserMgr.WebAPI.genruntimeconfig.cache
 D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\obj\Debug\net6.0\ref\UserMgr.WebAPI.dll
-D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Humanizer.dll
-D:\MyCodes\Net\NetLearn\UserMgr\UserMgr.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

@@ -15,6 +15,7 @@ namespace UserMgr.WebAPI.Controllers
             _userDomainService = userDomainService;
         }
 
+        [HttpPost]
         [UnitOfWork(typeof(UserDbContext))] // 因为可能有数据的操作
         public async Task<IActionResult> LoginByPhoneAndPassword(LoginByPhoneAndPasswordRequest req)
         {
