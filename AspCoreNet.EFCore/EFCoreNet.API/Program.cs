@@ -8,6 +8,8 @@ builder.Services.AddControllers().AddNewtonsoftJson(options =>
 {
     // 设置返回的json数据和模型的格式一致
     options.SerializerSettings.ContractResolver = new DefaultContractResolver();
+    // 设置时间额统一返回格式
+    options.SerializerSettings.DateFormatString = "yyyy:MM:dd HH:mm:ss";
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
