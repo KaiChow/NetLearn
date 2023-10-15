@@ -1,3 +1,4 @@
+using EFCoreNet.API.Config;
 using Newtonsoft.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,12 @@ builder.Services.AddControllers().AddNewtonsoftJson(options =>
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    // 设置swagger的默认返回数据
+    options.SchemaFilter<DefaultValueSchemaFilter>();
+
+});
 
 var app = builder.Build();
 
